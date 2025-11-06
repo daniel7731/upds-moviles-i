@@ -26,6 +26,25 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.15" />
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/txt_suma" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_resta" />
+        </RadioGroup>
+
         <EditText
             android:id="@+id/num1"
             android:layout_width="wrap_content"
@@ -33,10 +52,8 @@
             android:autoSizeTextType="uniform"
             android:ems="15"
             android:inputType="numberDecimal"
-            android:text="0"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="187dp" />
+            android:text="@string/default_value"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/num2"
@@ -45,27 +62,23 @@
             android:autoText="true"
             android:ems="15"
             android:inputType="numberDecimal"
-            android:text="0"
+            android:text="@string/default_value"
             android:textSize="20sp"
-            tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="284dp" />
+          />
 
         <TextView
             android:id="@+id/resultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
-            tools:layout_editor_absoluteX="163dp"
-            tools:layout_editor_absoluteY="362dp" />
+  />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:text="Button"
-            tools:layout_editor_absoluteX="144dp"
-            tools:layout_editor_absoluteY="493dp" />
+            android:text="@string/btn_operar"
+           />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

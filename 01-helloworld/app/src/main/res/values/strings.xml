@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Hello world</string>
     <string name="author">daniel roman</string>
+    <string name="txt_suma">suma</string>
+    <string name="txt_resta">resta</string>
+    <string name="btn_operar">operar</string>
+    <string name="txt_multiplicar">mutiplicar</string>
+    <string name="txt_dividir">dividir</string>
+    <string name="default_value">0</string>
+    <string name="titulo_operaciones">Producto y division</string>
 </resources>
