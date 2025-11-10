@@ -8,4 +8,6 @@
     <string name="txt_dividir">dividir</string>
     <string name="default_value">0</string>
     <string name="titulo_operaciones">Producto y division</string>
+    <string name="menu_opcion1">Opcion1</string>
+    <string name="menu_opcion2">Opcion2</string>
 </resources>
