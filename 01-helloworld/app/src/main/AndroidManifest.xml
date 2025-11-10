@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
+            android:name=".ListaDepartamentoActivity"
+            android:exported="false" />
+        <activity
             android:name=".OperacionesActivity"
             android:exported="false" />
         <activity

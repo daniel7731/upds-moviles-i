@@ -44,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        Toast noti=null;
+
         if (item.getItemId() == R.id.opcion1){
-            noti =  Toast.makeText(this,"",Toast.LENGTH_LONG);
-            noti.show();
+            Intent intent = new Intent(this,ListaDepartamentoActivity.class);
+            startActivity(intent);
             return true;
         }
         if( item.getItemId() == R.id.opcion2){
